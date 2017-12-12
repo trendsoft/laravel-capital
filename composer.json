@@ -1,0 +1,49 @@
+{
+  "name": "trendsoft/laravel-capital",
+  "keywords": [
+    "capital",
+    "trendsoft",
+    "laravel",
+    "sdk",
+    "amount"
+  ],
+  "description": "",
+  "license": "MIT",
+  "homepage": "http://www.trendsoft.org",
+  "authors": [
+    {
+      "name": "jabber",
+      "email": "2898117012@qq.com",
+      "homepage": "http://jabber.oppophp.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "wiki": "https://github.com/trendsoft/laravel-capital/wiki",
+    "issues": "https://github.com/trendsoft/laravel-capital/issues"
+  },
+  "require": {
+    "illuminate/container": "^5.5"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "LaravelCapital\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelCapital\\ServiceProvider"
+      ],
+      "aliases": {
+        "Capital": "LaravelCapital\\Facade"
+      }
+    }
+  }
+}
