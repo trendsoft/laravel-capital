@@ -26,7 +26,34 @@ $ composer require "trendsoft/laravel-capital" -vvv
 
 ## 配置
 
+Laravel 应用
+
+- 在 config/app.php 注册 ServiceProvider 和 Facade (Laravel 5.5 无需手动注册)
+
+```
+'providers' => [
+    // ...
+    LaravelCapital\ServiceProvider::class,
+],
+'aliases' => [
+    // ...
+    'Capital'=>LaravelCapital\Money::class
+],
+```
+
+Lumen 应用
+
+在 bootstrap/app.php 中 82 行左右：
+
+```
+$app->register(LaravelCapital\ServiceProvider::class);
+```
+
 ## 使用示例
+
+```
+\LaravelCapital\Money::parse(2003.2) //贰仟零叁元贰角
+```
 
 ## Contribution
 
