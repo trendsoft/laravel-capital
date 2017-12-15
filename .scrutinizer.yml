@@ -10,7 +10,6 @@ build:
     override:
       -
         command: 'vendor/bin/phpunit --coverage-clover=clover'
-        idle_timeout: 600
         coverage:
           file: 'clover'
           format: 'clover'
