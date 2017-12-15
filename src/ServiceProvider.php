@@ -26,7 +26,7 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(Money::class, function ($app) {
+        $this->app->singleton(Money::class, function () {
             return new Money();
         });
     }
