@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.org/trendsoft/laravel-capital.svg?branch=master)](https://travis-ci.org/trendsoft/laravel-capital)
 [![Latest Stable Version](https://poser.pugx.org/trendsoft/laravel-capital/v/stable)](https://packagist.org/packages/trendsoft/laravel-capital)
 [![Latest Unstable Version](https://poser.pugx.org/trendsoft/laravel-capital/v/unstable)](https://packagist.org/packages/trendsoft/laravel-capital)
+[![StyleCI](https://styleci.io/repos/113957453/shield?branch=master)](https://styleci.io/repos/113957453)
 
 [![License](https://poser.pugx.org/trendsoft/laravel-capital/license)](https://packagist.org/packages/trendsoft/laravel-capital)
 [![Total Downloads](https://poser.pugx.org/trendsoft/laravel-capital/downloads)](https://packagist.org/packages/trendsoft/laravel-capital)
