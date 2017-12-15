@@ -7,7 +7,7 @@
     "sdk",
     "amount"
   ],
-  "description": "",
+  "description": "基于`trendsoft/capital`的Laravel金额转中文大写",
   "license": "MIT",
   "homepage": "http://www.trendsoft.org",
   "authors": [
