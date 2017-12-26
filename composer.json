@@ -23,6 +23,7 @@
     "issues": "https://github.com/trendsoft/laravel-capital/issues"
   },
   "require": {
+    "php": ">=7.0",
     "illuminate/container": "^5.5",
     "trendsoft/capital": "^0.1.1"
   },
