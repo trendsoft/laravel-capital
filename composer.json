@@ -23,16 +23,13 @@
     "issues": "https://github.com/trendsoft/laravel-capital/issues"
   },
   "require": {
-    "php": ">=7.0",
-    "illuminate/container": "^5.5",
-    "trendsoft/capital": "^0.1.1"
+    "trendsoft/capital": "^0.1.1",
+    "illuminate/container": "^7.22"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.5",
-    "mockery/mockery": "^1.0",
-    "phpunit/php-invoker": "^1.1",
-    "graham-campbell/testbench": "^4.0",
-    "graham-campbell/analyzer": "^1.1"
+    "phpunit/phpunit": "^9.2",
+    "graham-campbell/testbench": "^5.5",
+    "graham-campbell/analyzer": "^3.0"
   },
   "autoload": {
     "psr-4": {
